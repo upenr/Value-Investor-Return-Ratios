@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Value Investors Return Ratios</string>
+    <string name="action_share">Share App Link</string>
+    <string name="action_info">Info</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_copy">© Copyright owned by the developer of this app.\n\nVersion: 1.7\n\nThis software is free and has no ads.\n\nThis software is provided \"as is\", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software. \n\nBuy me a coffee?\nPaypal at pingrange010101@gmail.com.
+    \n</string>
+    <string name="tab_text_1">Yearly Data</string>
+    <string name="tab_text_2">Quarterly Data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Stock Returns and Financial Statements</string>
+    <string name="nav_header_subtitle">Return Ratios of any company</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_manual_calc">Manual calculator</string>
+    <string name="title_info">Information</string>
+    <string name="title_activity_web_view">Browser</string>
+    <string name="extended_fab_label">I don\'t know the ticker symbol</string>
+    <!--replace with test ca-app-pub-3940256099942544/6300978111-->
+    <string name="banner_ad_unit_id">ca-app-pub-6716761053101068/4696562361</string>
+</resources>

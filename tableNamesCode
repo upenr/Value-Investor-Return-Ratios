@@ -1,0 +1,44 @@
+public static Map<String, Map<String, String>> getTableNames() {
+        final Map<String, String> revenue = new LinkedHashMap<String, String>() {
+            { put("TotalRevenue", "totalRevenue"); }
+            { put("CostofRevenue", "costOfRevenue"); }
+            { put("GrossProfit", "grossProfit"); }
+        };
+        final Map<String, String> operatingExpenses = new LinkedHashMap<String, String>() {
+            { put("Research and Development", "researchDevelopment"); }
+            { put("Selling General and Administrative", "sellingGeneralAdministrative"); }
+            { put("NonRecurring", "nonRecurring"); }
+            { put("Others", "otherOperatingExpenses"); }
+            { put("TotalOperatingExpenses", "totalOperatingExpenses"); }
+            { put("OperatingIncomeorLoss", "operatingIncome"); }
+        };
+        final Map<String, String> incomeCO = new LinkedHashMap<String, String>() {
+            { put("totalOtherIncomeExpenseNet", "totalOtherIncomeExpenseNet"); }
+            { put("EarningsBeforeInterestandTaxes", "ebit"); }
+            { put("Interest Expense", "interestExpense"); }
+            { put("Income Before Tax", "incomeBeforeTax"); }
+            { put("Income Tax Expense", "incomeTaxExpense"); }
+            { put("Minority Interest", "minorityInterest");
+                put("netIncomeFromContinuingOps", "netIncomeFromContinuingOps"); }
+        };
+        final Map<String, String> nre = new LinkedHashMap<String, String>() {
+            { put("Discontinued Operations", "discontinuedOperations"); }
+            { put("Extraordinary Items", "extraordinaryItems"); }
+            { put("Effect Of Accounting Changes", "effectOfAccountingCharges"); }
+            { put("Other Items", "otherItems"); }
+        };
+        final Map<String, String> netIncome = new LinkedHashMap<String, String>() {
+            { put("Net Income", "netIncome"); }
+            { put("Net Income Applicable To Common Shares", "netIncomeApplicableToCommonShares"); }
+        };
+        Map<String, Map<String, String>> allTableNames = new LinkedHashMap<String, Map<String, String>>() {
+            { put("Revenue", revenue); }
+            {
+                put("Operating Expenses", operatingExpenses);
+                put("incomeCO", incomeCO);
+                put("Non-recurring Events", nre);
+                put("Net Income", netIncome);
+            }
+        };
+        return allTableNames;
+    }

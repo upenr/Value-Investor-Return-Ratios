@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/results"
+            android:icon="@mipmap/ic_bookmark"
+            android:title="View previous result" />
+        <item
+            android:id="@+id/ticker"
+            android:icon="@mipmap/ic_search"
+            android:title="Find stock ticker" />
+        <item
+            android:id="@+id/manualCalc"
+            android:icon="@mipmap/ic_calculate"
+            android:title="Manual calculator" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_share"
+                android:title="Share App Link" />
+        </menu>
+    </item>
+</menu>

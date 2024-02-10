@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145436813653",
+    "project_id": "rocecalc-android-22e46",
+    "storage_bucket": "rocecalc-android-22e46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145436813653:android:a1f45062a385116b4ea7dc",
+        "android_client_info": {
+          "package_name": "com.upen.rocecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145436813653-hc88ra4nlldk8f4j7imhssgmgufhanpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSdlTjAQVFDNBdghaOIy60oZzdCVw0I2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145436813653-hc88ra4nlldk8f4j7imhssgmgufhanpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
