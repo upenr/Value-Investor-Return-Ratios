@@ -8,3 +8,7 @@
 .externalNativeBuild
 *.txt
 /.vscode
+*.apk
+*.ap_
+*.dex
+*.class
